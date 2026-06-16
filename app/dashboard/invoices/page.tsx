@@ -6,7 +6,7 @@ import { lusitana } from '@/app/ui/fonts';
 import { InvoicesTableSkeleton } from '@/app/ui/skeletons';
 import { Suspense } from 'react';
 import { fetchInvoicesPages } from '@/app/lib/data';
-
+import { notFound } from 'next/navigation';
 
 
 // Our funciton component basically reads pages as props number value and awaits the query aspect of search params.  
